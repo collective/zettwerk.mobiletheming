@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.2 (unreleased)
+0.2 (2014-07-01)
 ----------------
 
-- Nothing changed yet.
+- Added GenericSetup import/export profiles.
 
 
 0.1 (2014-06-04)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-version = '0.2.dev0'
+version = '0.2'
 
 long_description = (
     open('README.txt').read()
@@ -31,7 +31,7 @@ setup(name='zettwerk.mobiletheming',
       keywords='mobile',
       author='Jörg Kubaile / zettwerk GmbH',
       author_email='jk@zettwerk.com',
-      url='https://github.com/collective/zettwerk.mobiletheming',
+      url='http://www.zettwerk.com',
       license='gpl',
       packages=find_packages('src'),
       package_dir={'': 'src'},
