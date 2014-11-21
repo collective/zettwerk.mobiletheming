@@ -8,12 +8,13 @@ from urlparse import urlparse
 class MobRedirected(BrowserView):
 
     def __call__(self, request=None, ref='', url=''):
-        """Sends the user to the same page they were at before going to mobile site."""
+        """ Sends the user to the same page they were at before going to mobile
+        site."""
         refpage = urlparse(url)
-        redirect_to = refpage.path 
+        redirect_to = refpage.path
         if refpage.query:
-        	redirect_to += ( '?'+ refpage.query )
-        	
+            redirect_to += ('?' + refpage.query)
+
         return self.context.REQUEST.RESPONSE.redirect(redirect_to)
 
 
@@ -32,30 +33,32 @@ class JavaScript(BrowserView):
 
         hostname = self.hostname
         force_path_and_query = ''
-        
+
         if self.fullurl and not active:
-        	force_path_and_query += '/@@mobredirected/?url='
-        	ref = urlparse(self.request.get_header("referer"))
-        	force_path_and_query += ref.path 
-        	
-        	if ref.query:
-        		force_path_and_query  += '?'
-        		force_path_and_query  +=  ref.query
-        	
-        	
+            force_path_and_query += '/@@mobredirected/?url='
+            ref = urlparse(self.request.get_header("referer"))
+            force_path_and_query += ref.path
+
+            if ref.query:
+                force_path_and_query += '?'
+                force_path_and_query += ref.query
+
         if not active and hostname:
+            script_url = '/++resource++zettwerk.mobiletheming.scripts' \
+                         '/me.redirect.min.js'
             return """\
             var mobile_domain = "%(hostname)s";
             var ipad = "%(ipad)s";
             var other_tablets = "%(tablets)s";
             var force_path_and_query = "%(force_path_and_query)s";
-            document.write(unescape("%%3Cscript src='/++resource++zettwerk.mobiletheming.scripts/me.redirect.min.js' type='text/javascript'%%3E%%3C/script%%3E"));
-
+            document.write(unescape("%%3Cscript src="%(script_url)s"
+              type="text/javascript"%%3E%%3C/script%%3E"));
             """ % {
                 'hostname': hostname,
                 'ipad': self.ipad,
                 'tablets': self.tablets,
-                'force_path_and_query' : force_path_and_query,
+                'force_path_and_query': force_path_and_query,
+                'script_url': script_url,
             }
         return ''
 

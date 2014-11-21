@@ -26,7 +26,8 @@ class IMobileThemingSettings(Interface):
 
     fullurl = schema.Bool(
         title=_('fullurl', 'Redirect to full url'),
-        description=_('If set to true, it will redirect site.com/page to mobilesite/page.'),
+        description=_('If set to true, it will redirect site.com/page ' \
+                      'to mobilesite/page.'),
         default=False,
         )
 
