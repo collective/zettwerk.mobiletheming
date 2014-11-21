@@ -51,15 +51,16 @@ class JavaScript(BrowserView):
             var ipad = "%(ipad)s";
             var other_tablets = "%(tablets)s";
             var force_path_and_query = "%(force_path_and_query)s";
-            document.write(unescape("%%3Cscript src="%(script_url)s"
-              type="text/javascript"%%3E%%3C/script%%3E"));
-            """ % {
-                'hostname': hostname,
-                'ipad': self.ipad,
-                'tablets': self.tablets,
-                'force_path_and_query': force_path_and_query,
-                'script_url': script_url,
-            }
+            document.write(unescape("%%3Cscript """ \
+                """ src='%(script_url)s' """ \
+                """ type='text/javascript'%%3E%""" \
+                """%3C/script%%3E"));""" % {
+                    'hostname': hostname,
+                    'ipad': self.ipad,
+                    'tablets': self.tablets,
+                    'force_path_and_query': force_path_and_query,
+                    'script_url': script_url,
+                }
         return ''
 
     @property
