@@ -1,13 +1,11 @@
+from zettwerk.mobiletheming import messageFactory as _
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 from zope.schema.interfaces import IVocabularyFactory
 from zope.interface import directlyProvides
-from zope.i18nmessageid import MessageFactory
 
 #from plone.app.theming.utils import isValidThemeDirectory
 #from plone.app.theming.utils import getZODBThemes
 from plone.app.theming.utils import getAvailableThemes
-
-_ = MessageFactory('zettwerk.mobiletheming')
 
 
 def ThemeVocabulary(context):

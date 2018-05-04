@@ -16,7 +16,7 @@
       name="uninstall"
       title="zettwerk.mobiletheming - Uninstall"
       directory="profiles/uninstall"
-      description="Removes zettwerk.mobiletheming packe"
+      description="Removes zettwerk.mobiletheming package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

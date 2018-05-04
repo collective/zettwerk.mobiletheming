@@ -1,0 +1,84 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-05-04 20:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: zettwerk.mobiletheming\n"
+
+#: ../interfaces.py:27
+msgid "If set to true, it will redirect site.com/page to mobilesite/page."
+msgstr ""
+
+#: ../profiles.zcml:12
+msgid "Installs the zettwerk.mobiletheming package"
+msgstr ""
+
+#: ../profiles/default/controlpanel.xml
+msgid "Mobile theming"
+msgstr ""
+
+#: ../profiles.zcml:21
+msgid "Removes zettwerk.mobiletheming package"
+msgstr ""
+
+#: ../interfaces.py:34
+msgid "Set to false to not redirect on iPad."
+msgstr ""
+
+#: ../interfaces.py:40
+msgid "Set to false to not redirect on other tablets (Android , BlackBerry, WebOS tablets)"
+msgstr ""
+
+#: ../interfaces.py:22
+msgid "The name of the mobile theme."
+msgstr ""
+
+#. Default: "Redirect to full url"
+#: ../interfaces.py:26
+msgid "fullurl"
+msgstr ""
+
+#. Default: "Hostnames"
+#: ../interfaces.py:12
+msgid "hostnames"
+msgstr ""
+
+#. Default: "Hostnames to apply the mobile theme"
+#: ../interfaces.py:13
+msgid "hostnames_description"
+msgstr ""
+
+#. Default: "Redirect iPads"
+#: ../interfaces.py:33
+msgid "ipad"
+msgstr ""
+
+#. Default: "Redirect Other Tablets"
+#: ../interfaces.py:39
+msgid "tablets"
+msgstr ""
+
+#. Default: "Theme Name"
+#: ../interfaces.py:21
+msgid "themename"
+msgstr ""
+
+#: ../profiles.zcml:12
+msgid "zettwerk.mobiletheming"
+msgstr ""
+
+#: ../profiles.zcml:21
+msgid "zettwerk.mobiletheming - Uninstall"
+msgstr ""

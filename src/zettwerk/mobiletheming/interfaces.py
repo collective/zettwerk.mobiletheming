@@ -1,8 +1,6 @@
+from zettwerk.mobiletheming import messageFactory as _
 from zope.interface import Interface
 from zope import schema
-from zope.i18nmessageid import MessageFactory
-
-_ = MessageFactory(u"plone")
 
 
 class IMobileThemingSettings(Interface):

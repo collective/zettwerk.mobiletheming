@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_controlpanel"
-    xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="plone">
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="zettwerk.mobiletheming">
     <configlet title="Mobile theming" action_id="mobilesettings" appId="mobilesettings"
         category="Products" condition_expr=""
         url_expr="string:${portal_url}/@@mobile-theming-controlpanel" visible="True"
