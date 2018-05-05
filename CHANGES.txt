@@ -4,8 +4,13 @@ Changelog
 0.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added i18n support [macagua]
 
+- Added Spanish translation [macagua]
+
+- Added some improvements about the package documentation [macagua]
+
+- Added more strings classifiers items for this package [macagua]
 
 0.2.1 (2014-11-21)
 ------------------
