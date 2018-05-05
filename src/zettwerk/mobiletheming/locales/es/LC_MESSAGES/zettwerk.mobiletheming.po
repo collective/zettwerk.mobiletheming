@@ -1,0 +1,87 @@
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: zettwerk.mobiletheming\n"
+"POT-Creation-Date: 2018-05-04 20:56+0000\n"
+"PO-Revision-Date: 2018-05-04 18:51-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: zettwerk.mobiletheming\n"
+
+#: ../interfaces.py:27
+msgid "If set to true, it will redirect site.com/page to mobilesite/page."
+msgstr ""
+"Si define a true, será redireccionado de site.com/page a mobilesite/page."
+
+#: ../profiles.zcml:12
+msgid "Installs the zettwerk.mobiletheming package"
+msgstr "Instalar el paquete zettwerk.mobiletheming"
+
+#: ../profiles/default/controlpanel.xml
+msgid "Mobile theming"
+msgstr "Temas Movíl"
+
+#: ../profiles.zcml:21
+msgid "Removes zettwerk.mobiletheming package"
+msgstr "Remover el paquete zettwerk.mobiletheming"
+
+#: ../interfaces.py:34
+msgid "Set to false to not redirect on iPad."
+msgstr "Definir a false a no redirigir en iPad."
+
+#: ../interfaces.py:40
+msgid "Set to false to not redirect on other tablets (Android , BlackBerry, WebOS tablets)"
+msgstr ""
+"Definir a false a no redirigir en otros tablets (dispositivos tablets como "
+"Android , BlackBerry y WebOS)"
+
+#: ../interfaces.py:22
+msgid "The name of the mobile theme."
+msgstr "El nombre del tema movíl."
+
+#. Default: "Redirect to full url"
+#: ../interfaces.py:26
+msgid "fullurl"
+msgstr "Redireccinar a dirección url completa"
+
+#. Default: "Hostnames"
+#: ../interfaces.py:12
+msgid "hostnames"
+msgstr "Nombres de host"
+
+#. Default: "Hostnames to apply the mobile theme"
+#: ../interfaces.py:13
+msgid "hostnames_description"
+msgstr "Nombres de host a aplicar el tema movíl"
+
+#. Default: "Redirect iPads"
+#: ../interfaces.py:33
+msgid "ipad"
+msgstr "Redireccinar a iPads"
+
+#. Default: "Redirect Other Tablets"
+#: ../interfaces.py:39
+msgid "tablets"
+msgstr "Redireccinar a otras Tablets"
+
+#. Default: "Theme Name"
+#: ../interfaces.py:21
+msgid "themename"
+msgstr "Nombre de tema"
+
+#: ../profiles.zcml:12
+msgid "zettwerk.mobiletheming"
+msgstr "zettwerk.mobiletheming"
+
+#: ../profiles.zcml:21
+msgid "zettwerk.mobiletheming - Uninstall"
+msgstr "zettwerk.mobiletheming - Desinstalar"
