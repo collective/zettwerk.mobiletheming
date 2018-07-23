@@ -15,6 +15,7 @@ The ``zettwerk.mobiletheming`` package includes:
 - Also provides some mobile themes packages
 - Provides the ``me.redirect.min.js`` resource based on *MobileESP* library.
 
+
 Themes
 ======
 
@@ -24,11 +25,13 @@ This add-on provides the following mobile themes packages:
 - https://github.com/espenmn/medialog.mobilethemeTwo
 - https://github.com/espenmn/medialog.mobilethemeThree
 
+
 Documentation
 =============
 
 - Full **documentation for developers** can be found in the "docs" folder.
 - A video example about **documentation for end users** at https://www.youtube.com/watch?v=Q2ID86XkiQQ
+
 
 Translations
 ============
@@ -40,6 +43,7 @@ This product has been translated into
 
 Installation
 ============
+
 
 Buildout
 --------
@@ -80,9 +84,9 @@ Install ``zettwerk.mobiletheming`` via ``portal_quickinstaller`` tool.
 
 A new control panel entry makes it possible to change settings as the following:
 
-.. figure:: https://github.com/collective/zettwerk.mobiletheming/raw/master/mobile_theming_controlpanel.png
-
-  Mobile Theming Control Panel
+.. image:: https://github.com/collective/zettwerk.mobiletheming/raw/master/docs/screenshot1.png
+  :alt: Mobile theming control panel
+  :align: center
 
 Enter the hostnames on which the mobile theme should be applied.
 Choose the diazo theme to use for selected URL.
