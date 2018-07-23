@@ -2,7 +2,7 @@
 zettwerk.mobiletheming
 ======================
 
-Switching mobile themes based on urls
+Switching mobile themes based on urls using the `MobileESP`_ library.
 
 
 Features
@@ -13,7 +13,7 @@ The ``zettwerk.mobiletheming`` package includes:
 - A Mobile theming control panel
 - The GenericSetup import/export profiles
 - Also provides some mobile themes packages
-
+- Provides the ``me.redirect.min.js`` resource based on *MobileESP* library.
 
 Themes
 ======
@@ -66,10 +66,17 @@ Or, you can add it as a dependency on your own product ``setup.py`` file: ::
     ],
 
 
+Enabling
+--------
+
+Select and enable the ``zettwerk.mobiletheming`` package from the ``Add-ons`` 
+control panel. That's it!
+
+
 Usage
 =====
 
-Install ``zettwerk.mobiletheming`` via quickinstaller.
+Install ``zettwerk.mobiletheming`` via ``portal_quickinstaller`` tool.
 
 A new control panel entry makes it possible to change settings as the following:
 
@@ -88,25 +95,31 @@ There is also some settings for "redirecting urls", it works like this:
 4) You can choose if you want to redirect **iPads** and **tablets**, too.
 5) There is a setting
 
-See this example with the zettwerk.mobile theme: https://www.youtube.com/watch?v=Q2ID86XkiQQ
+See this example with the ``zettwerk.mobile`` theme: https://www.youtube.com/watch?v=Q2ID86XkiQQ
 
 
 Generic Setup
 =============
 
-This product also provides a GenericSetup extension for integrators to set these settings via a xml profile file. Place the ``mobiletheming.xml`` file in your (default) generic setup profile and change it as you need. You can also export your current settings via ``portal_setup -> Export``. The export step is called ``Mobiletheming Settings``.
+This product also provides a GenericSetup extension for integrators to set 
+these settings via a xml profile file. Place the ``mobiletheming.xml`` file 
+in your (default) generic setup profile and change it as you need. You can 
+also export your current settings via ``portal_setup -> Export``. The export 
+step is called ``Mobiletheming Settings``.
 
-Example content, taken from `zettwerk.mobile <https://github.com/collective/zettwerk.mobile/tree/master/zettwerk/mobile/profiles/default/mobiletheming.xml>`_: ::
+Example content, taken from `zettwerk.mobile <https://github.com/collective/zettwerk.mobile/tree/master/zettwerk/mobile/profiles/default/mobiletheming.xml>`_:
 
-  <?xml version="1.0"?>
-  <settings>
-    <themename>zettwerk.mobile</themename>
-    <hostnames>
-      <element>http://localhost:8080</element>
-    </hostnames>
-    <ipad>False</ipad>
-    <tablets>False</tablets>
-  </settings>
+::
+
+    <?xml version="1.0"?>
+    <settings>
+      <themename>zettwerk.mobile</themename>
+      <hostnames>
+        <element>http://localhost:8080</element>
+      </hostnames>
+      <ipad>False</ipad>
+      <tablets>False</tablets>
+    </settings>
 
 
 Contribute
@@ -119,4 +132,23 @@ Contribute
 License
 =======
 
-The project is licensed under the GPLv2.
+- The project is licensed under the GPLv2.
+- The *MobileESP* library is licensed under the Apache License, Version 2.0.
+
+
+Credits
+-------
+
+Really thanks to :
+
+- Jörg Kubaile at zettwerk GmbH. (jk at zettwerk dot com).
+
+
+Amazing contributions
+---------------------
+
+- Leonardo J. Caballero G. aka macagua (leonardocaballero at gmail dot com).
+
+You can find an updated list of package contributors on https://github.com/collective/zettwerk.mobiletheming/contributors
+
+.. _`MobileESP`: https://github.com/ahand/mobileesp
