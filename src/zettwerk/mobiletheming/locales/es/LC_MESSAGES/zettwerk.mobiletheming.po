@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: zettwerk.mobiletheming\n"
-"POT-Creation-Date: 2018-07-23 16:35+0000\n"
-"PO-Revision-Date: 2018-05-04 18:51-0400\n"
+"POT-Creation-Date: 2018-07-23 12:35-0400\n"
+"PO-Revision-Date: 2018-07-23 12:51-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,7 @@ msgstr ""
 
 #: ../interfaces.py:27
 msgid "If set to true, it will redirect site.com/page to mobilesite/page."
-msgstr ""
-"Si define a true, será redireccionado de site.com/page a mobilesite/page."
+msgstr "Si define a true, será redireccionado de site.com/page a mobilesite/page."
 
 #: ../profiles.zcml:14
 msgid "Installs the zettwerk.mobiletheming package"
@@ -41,9 +40,7 @@ msgstr "Definir a false a no redirigir en iPad."
 
 #: ../interfaces.py:40
 msgid "Set to false to not redirect on other tablets (Android , BlackBerry, WebOS tablets)"
-msgstr ""
-"Definir a false a no redirigir en otros tablets (dispositivos tablets como "
-"Android , BlackBerry y WebOS)"
+msgstr "Definir a false a no redirigir en otros tablets (dispositivos tablets como Android , BlackBerry y WebOS)"
 
 #: ../interfaces.py:22
 msgid "The name of the mobile theme."
