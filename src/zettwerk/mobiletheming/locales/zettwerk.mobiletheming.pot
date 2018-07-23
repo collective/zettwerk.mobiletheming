@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-05-04 20:56+0000\n"
+"POT-Creation-Date: 2018-07-23 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "If set to true, it will redirect site.com/page to mobilesite/page."
 msgstr ""
 
-#: ../profiles.zcml:12
+#: ../profiles.zcml:14
 msgid "Installs the zettwerk.mobiletheming package"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Mobile theming"
 msgstr ""
 
-#: ../profiles.zcml:21
+#: ../profiles.zcml:24
 msgid "Removes zettwerk.mobiletheming package"
 msgstr ""
 
@@ -75,10 +75,10 @@ msgstr ""
 msgid "themename"
 msgstr ""
 
-#: ../profiles.zcml:12
+#: ../profiles.zcml:14
 msgid "zettwerk.mobiletheming"
 msgstr ""
 
-#: ../profiles.zcml:21
+#: ../profiles.zcml:24
 msgid "zettwerk.mobiletheming - Uninstall"
 msgstr ""
